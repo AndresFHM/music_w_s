@@ -1,0 +1,38 @@
+.footer-container{
+    height: 200px;
+    justify-content: center space-between;
+    background-color: pink;
+
+    .logo{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        padding-top: 30px;
+    }
+
+    .footer-links{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 30px;
+        margin: auto;
+        width: 250px;
+
+    }
+    
+    .footer-icons{
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+        width: 180px;
+        padding-top: 30px;
+
+    }
+
+    .copyright{
+        display: flex;
+        justify-content:center;
+        margin: auto;
+        padding-top: 30px;
+    }
+    
+}
