@@ -81,10 +81,9 @@ export default function() {
             
             <div className='user-list'>
                 <div className='display-user-list'>
-                    <button onClick={produceUserList}>Display Users</button>
+                    <button onClick={produceUserList}>Console users list</button>
                 </div>
-            </div>
-            
+            </div>            
         </div>
     );
 }
