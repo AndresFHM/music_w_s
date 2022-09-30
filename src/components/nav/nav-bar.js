@@ -31,11 +31,11 @@ const NavBar = (props) => {
                         Contact
                     </NavLink>
                 </div>
-                <div className="nav-link-container">
+                {/* <div className="nav-link-container">
                     <NavLink to='/forum' activeClassName='nav-link-active'>
                         Forum
                     </NavLink>
-                </div>
+                </div> */}
             </div>
             <div className="right-side">
                 <div className="nav-link-container">

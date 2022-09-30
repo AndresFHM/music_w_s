@@ -1,9 +1,17 @@
 
+@import "./breakpoints.scss";
+
 .nav-container{
     display: flex;
     justify-content: space-between;
     padding: 30px;
     background-color: pink;
+
+    @include media('<=small-tablet'){
+        background-color: gray;
+        font-size: smaller;
+    }
+
     
 
     .left-side{

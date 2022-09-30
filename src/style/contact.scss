@@ -1,0 +1,12 @@
+.contact-container{
+    background-color: blue;
+    display:flex;
+    justify-content: center;
+    padding: 50px;
+
+    .contact-entries{
+        display: grid;
+        padding: 30px;
+        border: solid pink 0.5px;
+    }
+}

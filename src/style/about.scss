@@ -1,0 +1,85 @@
+@import "./breakpoints.scss";
+
+.get-to-know-us{
+    .top-filler{
+        background-color: green;
+        display: flex;
+
+        .musicians-posing{
+            background-image: url("../../static/assets/images/instructors.jpg");
+            width: 300px;
+            background-size: cover;
+            background-position: 10% 25%;
+            border-radius: 45%;
+        }
+    }
+}
+
+
+.what-we-up-to{
+    width: 100%;
+    display: flex;
+    @include media('<=tablet'){
+        display: grid;
+    
+    }
+    
+    .values-container{
+        padding: 10px;
+        width: 50%;
+        background-color: gray;
+        @include media('<=tablet'){
+            width: 100%;
+        }
+        .values-container-header{
+            display: flex;
+            justify-content: space-between;
+            
+            .practice{
+                background-image: url("../../static/assets/images/udg_ensamble.jpg");
+                width: 300px;
+                background-size: cover;
+                background-position: 20% 30%;
+                @include media('<=tablet'){
+                    width: 200px;
+                }
+            }
+        }
+
+        .values{
+            padding: 10px;
+            display: grid;
+
+            .values-top{
+                display: flex;
+                @include media('<=tablet'){
+                    display: grid;
+                
+                }
+            }
+
+            .values-bottom{
+                display: flex;
+                @include media('<=tablet'){
+                    display: grid;
+                
+                }
+            }
+
+        }
+    }    
+    .mission{
+        padding: 10px;
+        width: 50%;
+        background-color: magenta;
+
+        
+        @include media('<=tablet'){
+            width: 100%;
+            order: -1;
+        }
+    }
+
+
+    
+}

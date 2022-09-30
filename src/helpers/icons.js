@@ -8,9 +8,7 @@ import {
     faMobile,
     faMapMarkedAlt,
     faLock,
-    
-    
-    
+    faMusic
     
     
     
@@ -18,6 +16,9 @@ import {
 
 
 import { library } from "@fortawesome/fontawesome-svg-core";
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebook, faTwitter, faYoutube, faInstagram, faTwitch } from '@fortawesome/free-brands-svg-icons'
 
 
 
@@ -33,6 +34,12 @@ const Icons = () => {
         faMobile,
         faMapMarkedAlt,
         faLock,
+        faFacebook,
+        faTwitter,
+        faYoutube,
+        faInstagram,
+        faTwitch,
+        faMusic
 
         
         

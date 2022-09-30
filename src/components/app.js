@@ -33,8 +33,6 @@ export default class App extends Component {
         <Router>
           <div>
             <NavBar />
-            <h1>DevCamp React Starter</h1>
-            <h2>React Redux Router</h2>
             <Switch>
               <Route exact path='/' component={Home} />
               <Route path='/about-us' component={About} />

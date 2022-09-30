@@ -1,0 +1,92 @@
+@import "./breakpoints.scss";
+
+.home-container{
+    background-color: orange;
+
+    .top-component{
+        display: flex;
+        height: 400px;
+        @include media('<=small-tablet'){
+            display: grid;
+        
+        }
+        
+        .top-text{
+            background-color: red;
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            @include media('<=small-tablet'){
+                width: 100%;
+
+            }
+            
+        }
+        .top-image{
+
+            background-image: url("../../static/assets/images/udg_ensamble2.jpg");
+            width: 50%;
+            background-size: cover;
+            background-position: center;
+            @include media('<=small-tablet'){
+                width: 100%
+            }
+        }
+    }
+
+    .middle-component{
+        display: flex;
+        height: 400px;
+        @include media('<=small-tablet'){
+            display: grid;
+        }
+
+        .middle-text{
+            background-color: pink;
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            @include media('<=small-tablet'){
+                width: 100%;
+                order: -1;
+            }
+
+        }
+        .middle-image{
+            background-image: url("../../static/assets/images/notes.jpg");
+            width: 50%;
+            background-size: cover;
+            background-position: center;
+            @include media('<=small-tablet'){
+                width: 100%
+            }
+        }
+    }
+
+    .bottom-component{
+        display: flex;
+        height: 400px;
+        @include media('<=small-tablet'){
+            display: grid;
+        }
+        .bottom-text{
+            background-color: cyan;
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            @include media('<=small-tablet'){
+                width: 100%
+            }
+
+        }
+        .bottom-image{
+            background-image: url("../../static/assets/images/udg_mariachi.jpg");
+            width: 50%;
+            background-size: cover;
+            background-position: center;
+            @include media('<=small-tablet'){
+                width: 100%
+            }
+        }
+    }
+}
