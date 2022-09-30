@@ -14,6 +14,7 @@ import Forum from "./pages/forum";
 import Home from "./pages/home";
 import LogOn from "./pages/logon";
 import SignUp from "./pages/signup";
+import Admin from "./pages/admin";
 import NoMatch from "./pages/notfound";
 
 export default class App extends Component {
@@ -40,6 +41,7 @@ export default class App extends Component {
               <Route path='/forum' component={Forum} />
               <Route path='/logon' component={LogOn} />
               <Route path='/signup' component={SignUp} />
+              <Route path='/admin' component={Admin} />
               <Route component={NoMatch} />
             </Switch>
             <Footer />

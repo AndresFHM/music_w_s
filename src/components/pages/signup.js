@@ -28,17 +28,17 @@ export default function() {
 
     }
 
-    useEffect(() => {
-        fetch('http://127.0.0.1:5000/get', {
-            'method': 'GET',
-            headers: {
-                'Content-Type':'application/json'
-            }
-        })
-        .then(resp => resp.json())
-        .then(resp => console.log(resp))
-        .catch(error => console.log(error))
-    }, [])
+    // useEffect(() => {
+    //     fetch('http://localhost:5000/users', {
+    //         'methods': 'GET',
+    //         headers: {
+    //             'Content-Type':'application/json'
+    //         }
+    //     })
+    //     .then(resp => resp.json())
+    //     .then(resp => console.log(resp))
+    //     .catch(error => console.log(error))
+    // }, [])
 
 
 
